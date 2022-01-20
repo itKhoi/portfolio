@@ -1,0 +1,31 @@
+.about-container {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgba(2, 2, 2, 1),
+    rgba(12, 12, 12, 0.98),
+    rgba(22, 22, 22, 0.96),
+    rgba(33, 33, 33, 0.95),
+    rgba(44, 44, 44, 0.94)
+  );
+}
+
+.text-container {
+  padding: 50px 200px;
+}
+
+.text-container h1 {
+  color: #ffffff;
+  font-size: 96px;
+  font-family: "Maven Pro";
+  font-weight: 500;
+}
+
+.about-text-body {
+  margin-top: 75px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 24pt;
+}

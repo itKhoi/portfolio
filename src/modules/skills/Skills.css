@@ -1,0 +1,42 @@
+.skills-container {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgba(2, 2, 2, 1),
+    rgba(12, 12, 12, 0.98),
+    rgba(22, 22, 22, 0.96),
+    rgba(33, 33, 33, 0.95),
+    rgba(44, 44, 44, 0.94)
+  );
+  overflow: hidden;
+}
+.skill-content-container {
+  padding: 50px 200px;
+}
+
+.skill-content-container h1 {
+  color: #ffffff;
+  font-size: 96px;
+  font-family: "Maven Pro";
+  font-weight: 500;
+}
+
+.progress-container {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.progress-box {
+  margin: 50px 0;
+  display: flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.progress-box p {
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: max-content;
+}
